@@ -1,0 +1,23 @@
+Package: toyR.ansarusc
+Title: Make Factors Less Aggravating
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Santiago",
+           family = "Rugeles",
+           role = c("aut", "cre"),
+           email = "ansaru17@student.ubc.ca",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Factors have driven people to extreme measures, like ordering
+    custom conference ribbons and laptop stickers to express how HELLNO we
+    feel about stringsAsFactors. And yet, sometimes you need them. Can they
+    be made less maddening? Let's find out.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    forcats
